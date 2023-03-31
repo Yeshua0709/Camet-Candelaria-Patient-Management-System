@@ -1,10 +1,7 @@
 import React from 'react'
-import Sidebar  from './Sidebar'
-export default function OverView(){
-    return (
+export default function Overview(){
 
-
-        <div>This is the OverView Page</div>
+    return(
+        <div>This is the new Overview page</div>
     )
 }
-

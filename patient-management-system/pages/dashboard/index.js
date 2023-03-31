@@ -1,12 +1,18 @@
 import React from 'react'
-import OverView from './Overview'
 import Sidebar from './Sidebar'
+import Overview from './Overview'
+import {activeComponent} from './Sidebar'
+
 export default function Dashboard(props){
+
+
     return (
-     
+   
       <div>
-          <Sidebar />
-          <OverView />
+          <Sidebar/>
+          {activeComponent}
+
+          
       </div>
      
     )
