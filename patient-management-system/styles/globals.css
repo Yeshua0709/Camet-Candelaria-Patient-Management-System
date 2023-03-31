@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300&display=swap');
+
 *{
     padding:0;
     margin: 0;
@@ -114,3 +116,105 @@ body,html{
 
 
 /**LANDING PAGE CSS**/
+
+.navlogo
+{
+    width: 40px;
+    height: 40px;
+    padding: .5em;
+}
+
+.navwindow1
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0049B3;
+}
+
+.landnav
+{
+    padding: 0% 3% 0%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    background-color: #bfdbfe;
+    font-family: sans-serif;
+    color:black;
+    font-size: 1.3em;
+}
+
+.navwindow2 a
+{
+    text-decoration: none;
+}
+
+.navwindow2 a:visited
+{
+    color:black;
+}
+
+.navwindow2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 3em;
+    font-weight: lighter;
+}
+
+.navlabelbut
+{
+    background-color: #0049B3;
+    padding: .4em;
+    border-radius: 5px;
+}
+
+.navlabelbut p
+{
+    color: white;
+}
+
+.landwindow3
+{
+    display: flex;
+    align-items: center;
+    padding: 4%;
+
+}
+
+.landleft1
+{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.landlefttext1
+{
+    font-size:7em;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 100;
+}
+
+.landlefttext2
+{
+    font-size:2em;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
+}
+
+.landbutton1
+{
+    color: white;
+    background-color: #0049B3;
+    padding: 1em 10em 1em;
+    text-decoration: none;
+    font-size: 1.3em;
+}
+
+.landbutt
+{
+    margin-top:3em;
+}
+
