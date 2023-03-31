@@ -122,6 +122,8 @@ body,html{
     width: 40px;
     height: 40px;
     padding: .5em;
+    max-height: 100%;
+    max-width: 100%;
 }
 
 .navwindow1
@@ -130,6 +132,8 @@ body,html{
     align-items: center;
     justify-content: center;
     color: #0049B3;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
 }
 
 .landnav
@@ -161,6 +165,9 @@ body,html{
     align-items: center;
     column-gap: 3em;
     font-weight: lighter;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
+
 }
 
 .navlabelbut
@@ -179,8 +186,7 @@ body,html{
 {
     display: flex;
     align-items: center;
-    padding: 4%;
-
+    padding: 8em 2em 8em;
 }
 
 .landleft1
@@ -192,7 +198,7 @@ body,html{
 
 .landlefttext1
 {
-    font-size:7em;
+    font-size:6.5em;
     font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 100;
 }
@@ -208,13 +214,137 @@ body,html{
 {
     color: white;
     background-color: #0049B3;
-    padding: 1em 10em 1em;
+    padding: .8em 9em .8em;
     text-decoration: none;
     font-size: 1.3em;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
 }
-
 .landbutt
 {
     margin-top:3em;
 }
 
+
+.landgrp2
+{
+    background-color: #bfdbfe;
+    padding: 5em 0em 5em;
+}
+
+
+.landcontainer2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.landflexbox2
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 3em;
+}
+
+.landbox1
+{
+    background-color: #0049B3;
+    color: white;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
+    font-size: 2em;
+    height: 600px;
+    width: 400px;
+    max-width: 100%;
+    max-height: 100%;
+    padding: 1em;
+}
+
+
+.landbox1 ul li
+{
+    list-style-type: none;
+    font-size: 1.3em;
+    padding: .5em 0em .5em;
+}
+
+.landheader2
+{
+    font-size: 10em;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #0049B3;
+}
+
+.header2_1
+{
+    color: #bfdbfe;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1.4em;
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+
+.landflexbox3 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 15em 0em 15em;
+}
+
+.header3
+{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
+    font-size: 7em;
+    color: #0049B3;
+}
+
+.text3
+{
+    padding-top: 3em;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
+    font-size: 2em;
+}
+
+.landgrp4
+{
+    background-color:#bfdbfe;
+    height: 677x;
+}
+
+.landflexbox4
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0em 4em 0em;
+}
+
+
+.landh4
+{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
+    font-size: 3em;
+    color: #0049B3;
+    padding-bottom: 1em;
+}
+
+.landform label
+{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1.5em;
+    color: #0049B3;
+}
